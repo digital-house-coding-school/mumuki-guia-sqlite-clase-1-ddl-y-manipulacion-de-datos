@@ -1,5 +1,5 @@
 type: final_dataset
-final: SELECT name, type from pragma table_info(bandas);
+final: SELECT name, type from (pragma table_info(bandas));
 expected: |
   id|descrip
   1|dato 1
