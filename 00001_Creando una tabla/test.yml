@@ -1,2 +1,7 @@
-- type: query
-  expected: CREATE TABLE bandas(nombre TEXT);
+type: final_dataset
+final: pragma table_info(table_name);
+expected: |
+  id|descrip
+  1|dato 1
+  2|dato 2
+  3|dato 3
