@@ -1,5 +1,5 @@
 type: final_dataset
-final: SELECT sqlite3_column_text(PRAGMA table_info("bandas"), 1) from 1;
+final: PRAGMA table_info("bandas")
 expected: |
   id|desrip
   1|dato 1
