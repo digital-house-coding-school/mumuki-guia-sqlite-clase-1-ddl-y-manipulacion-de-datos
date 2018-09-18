@@ -1,2 +1,5 @@
 - type: query
   expected: CREATE TABLE bandas(nombre TEXT);
+  
+  
+SELECT * FROM bandas;
