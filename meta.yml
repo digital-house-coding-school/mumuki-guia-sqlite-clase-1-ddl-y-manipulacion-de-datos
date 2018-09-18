@@ -3,7 +3,8 @@ name: 'Clase 1: DDL y manipulación de datos'
 locale: es
 type: learning
 beta: false
-teacher_info: 
+teacher_info: ''
 language: sqlite
 id_format: "%05d"
-order: []
+order:
+- 1
