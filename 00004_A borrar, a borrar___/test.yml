@@ -1,5 +1,5 @@
 type: final_dataset
-final: SELECT * FROM sqlite_master WHERE type='table';
+final: SELECT name FROM sqlite_master WHERE type='table';
 expected: |
   cid|name|type|notnull|dflt_value|pk
   0|id|INTEGER|0||1
