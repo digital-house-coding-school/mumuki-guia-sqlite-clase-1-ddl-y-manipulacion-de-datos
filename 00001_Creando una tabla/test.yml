@@ -1,5 +1,5 @@
 type: final_dataset
-final: PRAGMA table_info("bandas")
+final: PRAGMA table_info("bandas");
 expected: |
   id|desrip
   1|dato 1
