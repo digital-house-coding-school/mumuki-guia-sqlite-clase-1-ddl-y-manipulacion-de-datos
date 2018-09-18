@@ -1,0 +1,5 @@
+CREATE TABLE bandas(
+  id INTEGER PRIMARY KEY,
+  nombre TEXT NOT NULL,
+  premios INTEGER
+);

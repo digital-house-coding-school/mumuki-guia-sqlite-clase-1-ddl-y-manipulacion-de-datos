@@ -33,6 +33,9 @@ Tu trabajo, mediante el comando **ALTER TABLE** es modificar la tabla para que s
   }'>
 </div>
 
-No olvides que será fundamental terminar tus queries de SQL con el punto y coma :wink:
+Para esto la sintaxis debe verse:
 
-¿No recordas la sintaxis? Acá abajo te dejamos una ayuda :point_down:
+``` sql
+ALTER TABLE nombre_tabla
+  ADD nombre_columna tipo_columna;
+```
