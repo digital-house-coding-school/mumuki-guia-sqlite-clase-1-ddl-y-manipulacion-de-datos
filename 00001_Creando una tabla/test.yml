@@ -1,5 +1,5 @@
 type: final_dataset
-final: SELECT m.name as tableName, p.name as columnName FROM sqlite_master m left outer join pragma table_info((m.name)) p on m.name <> p.name order by tableName,columnName;
+final: pragma table_info("bandas");
 expected: |
   id|descrip
   1|dato 1
