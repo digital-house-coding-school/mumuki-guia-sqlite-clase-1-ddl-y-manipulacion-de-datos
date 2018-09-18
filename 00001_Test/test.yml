@@ -1,2 +1,6 @@
-- type: query
-  expected: CREATE TABLE sarasa(x INTEGER);
+type: final_dataset
+final: |
+  select *
+  from socio;
+expected: |
+  x
