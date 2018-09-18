@@ -1,0 +1,2 @@
+- type: query
+  expected: CREATE TABLE bandas(nombre TEXT);

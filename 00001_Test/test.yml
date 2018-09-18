@@ -1,2 +1,0 @@
-- type: query
-  expected: CREATE TABLE persona(nombre TEXT, apellido TEXT);
