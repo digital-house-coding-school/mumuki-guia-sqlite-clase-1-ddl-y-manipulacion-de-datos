@@ -1,7 +1,5 @@
 type: final_dataset
 final: PRAGMA table_info("bandas");
 expected: |
-  id|desrip
-  1|dato 1
-  2|dato 2
-  3|dato 3
+  cid|name|type|notnull|dflt_value|pk
+  0|sarasa|REAL|0||0
