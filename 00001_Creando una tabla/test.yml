@@ -1,5 +1,7 @@
 type: final_dataset
-final: SELECT * FROM(pragma_table_info("bandas"));
+seed: |
+  CREATE VIRTUAL TABLE my_table_info USING superview( PRAGMA table_info("bandas") ); 
+final: SELECT * FROM my_table_info;
 expected: |
   id|descrip
   1|dato 1
