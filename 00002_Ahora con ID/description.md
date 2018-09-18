@@ -1,22 +1,22 @@
-Para empezar vamos a crear una tabla.
+Una vez más vamos a crear la tabla **bandas** usando **CREATE TABLE** pero con algunos cambios...
 
-Durante esta guía armaremos una pequeña base de datos de bandas musicales.
-
-Lo primero que vamos a hacer entonces es... ¡Crear una tabla llamada **bandas**
-
-Para comenzar, únicamente va a tener un campo llamado **nombre** de tipo **TEXT**.
-
-Por si las dudas, te dejamos una adaptación del DER:
+La tabla debería verse así:
 
 <div class='mu-erd'
   data-entities='{
     "bandas": {
+      "id" : {
+        "type": "INTEGER",
+        "pk": true
+      },
       "nombre": {
         "type": "TEXT"
       }
     }
   }'>
 </div>
+
+Ahora tenemos la columna **id**, de tipo INTEGER y que sea PRIMARY KEY. Además, te vamos a pedir que la columna **nombre** no pueda ser nula.
 
 Notese que verás como resultado una lista de los campos de la tabla **bandas** con cada una de sus restricciones.
 
