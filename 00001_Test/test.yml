@@ -1,2 +1,2 @@
 - type: query
-  expected: SELECT * FROM sarasa;
+  expected: CREATE TABLE sarasa(x INTEGER);
