@@ -1,7 +1,7 @@
 type: final_dataset
-final: .schema "bandas";
+final: sqlite3_column_text(PRAGMA table_info("bandas"), 1);
 expected: |
-  id|descrip
+  id|desrip
   1|dato 1
   2|dato 2
   3|dato 3
