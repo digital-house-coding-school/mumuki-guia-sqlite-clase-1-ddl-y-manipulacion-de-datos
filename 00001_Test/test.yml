@@ -1,6 +1,2 @@
-type: final_dataset
-final: |
-  select *
-  from socio;
-expected:
-  x
+- type: query
+  expected: CREATE TABLE persona(nombre TEXT, apellido TEXT);
