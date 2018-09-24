@@ -17,3 +17,7 @@ INSERT into artistas values(null, "Luis Alberto", "Spinetta", "1950-01-23");
 INSERT into artistas values(null, "Charly", "Garcia", "1951-10-23");
 INSERT into artistas values(null, "Pedro", "Aznar", "1959-07-23");
 INSERT into artistas values(null, "David", "Lebon", "1952-10-05");
+CREATE TABLE banda_artista (
+  id INTEGER PRIMARY KEY,
+  id_banda
+)

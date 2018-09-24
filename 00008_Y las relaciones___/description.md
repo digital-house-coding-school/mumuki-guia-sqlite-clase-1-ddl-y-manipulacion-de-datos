@@ -21,17 +21,17 @@ Esto nos genera una tabla intermedia y nuestro diagrama ahora se ve así:
         "type": "Integer",
         "pk": true
       },
-      "id_artista" : {
-        "type": "Integer",
-        "fk": {
-          "to": { "entity": "artistas", "column": "id" },
-          "type": "many_to_one"
-        }
-      },
       "id_banda" : {
         "type": "Integer",
         "fk": {
           "to": { "entity": "bandas", "column": "id" },
+          "type": "many_to_one"
+        }
+      },
+      "id_artista" : {
+        "type": "Integer",
+        "fk": {
+          "to": { "entity": "artistas", "column": "id" },
           "type": "many_to_one"
         }
       }
