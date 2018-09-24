@@ -78,7 +78,7 @@ Dado esto te vamos a pedir que insertes en la tabla **banda_artista** las siguie
 > ```
 
 > ```
-> En la banda Seru Giran (banda número 4), toca Pedro Aznar (artista número 3)
+> En la banda Seru Giran (banda número 4), toca Pedro Aznar (artista número 4)
 > ```
 
 > ```
