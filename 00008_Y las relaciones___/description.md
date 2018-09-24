@@ -67,7 +67,7 @@ Dado esto si tuvieramos en la tabla **banda_artista** el siguiente contenido:
 
 Lo que estamos diciendo es que en la banda número 3 (Seru Giran) participa el artista número 4 (David Lebon)
 
-Dado esto te vamos a pedir que insertes en la tabla **banda_artista** las siguientes entradas
+Dado esto te vamos a pedir que insertes en la tabla **banda_artista** las siguientes entradas (en el siguiente órden):
 
 > ```
 > En la banda Sui Generis (banda número 3), toca Charly Garcia (artista número 2)
