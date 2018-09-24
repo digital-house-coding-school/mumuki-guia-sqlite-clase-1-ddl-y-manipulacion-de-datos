@@ -2,7 +2,7 @@
 
 > ```
 > Nombre: Pescado Rabioso
-> Premios: 17
+> Premios: NULL
 > ```
 
 > ```

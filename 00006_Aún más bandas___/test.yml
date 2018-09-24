@@ -3,6 +3,6 @@ final: SELECT * FROM bandas;
 expected: |
   id|nombre|premios
   1|Almendra|28
-  2|Pescado Rabioso|17
+  2|Pescado Rabioso|null
   3|Sui Generis|42
   4|Seru Giran|58
