@@ -1,31 +1,8 @@
-# El siguiente es un ejemplo de cómo generar test para SQL utilizando formato YAML.
-# Acá dejamos los tres tipos de tests que podés escribir.
-# Para info más detallada revisá la wiki: https://github.com/mumuki/mumuki-sqlite-runner/wiki
-
-# 1. query
-- type: query
-  seed: | # Opcional
-    INSERT INTO table VALUES ('dato 1');
-    INSERT INTO table VALUES ('dato 2');
-  expected: SELECT * FROM table;
-# 2. datasets
-- type: datasets
-  seed: | # Opcional
-    INSERT INTO table VALUES ('dato 1');
-    INSERT INTO table VALUES ('dato 2');
-  expected: |
-    id|descrip
-    1|dato 1
-    2|dato 2
-# 3. final_dataset
-- type: final_dataset
-  seed: | # Opcional
-    INSERT INTO table VALUES ('dato 1');
-    INSERT INTO table VALUES ('dato 2');
-  final: SELECT descrip FROM bolitas;
-  # Supongamos que el ejercicio pide insertar 'dato 3'
-  expected: |
-    descrip
-    dato 1
-    dato 2
-    dato 3
+type: final_dataset
+final: SELECT * FROM artistas;
+expected: |
+  id|nombre|apellido|fecha_de_nacimiento
+  1|Luis Alberto|Spinetta|1950-01-23
+  2|Charly|Garcia|1951-10-23
+  3|Pedro|Aznar|1959-07-23
+  4|David|Lebon|1952-10-05
