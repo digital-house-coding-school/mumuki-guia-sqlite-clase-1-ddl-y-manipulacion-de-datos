@@ -20,7 +20,7 @@ Nuestra tabla de artistas se ve así:
   }'>
 </div>
 
-Notese que tenemos un campo de tipo DATE y es importante respetar el formato **"YYYY-MM-DD"**
+Notese que tenemos un campo de tipo DATE y es importante respetar el formato **"YYYY-MM-DD"** (incluyendo las comillas)
 
 Vamos entonces a insertar varios artistas en el siguiente órden:
 

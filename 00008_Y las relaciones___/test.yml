@@ -1,0 +1,5 @@
+type: final_dataset
+final: SELECT bandas.nombre as banda, artistas.nombre as nombre, artistas.apellido as apellido FROM artistas INNER JOIN banda_artista ON banda_artista.id_banda = artista.id INNER JOIN artistas ON artistas.id = banda_artista.id_artista;
+expected: |
+  banda|nombre|apellido
+  
