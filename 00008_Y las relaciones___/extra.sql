@@ -19,5 +19,6 @@ INSERT into artistas values(null, "Pedro", "Aznar", "1959-07-23");
 INSERT into artistas values(null, "David", "Lebon", "1952-10-05");
 CREATE TABLE banda_artista (
   id INTEGER PRIMARY KEY,
-  id_banda
-)
+  id_banda INTEGER,
+  id_artista INTEGER
+);
