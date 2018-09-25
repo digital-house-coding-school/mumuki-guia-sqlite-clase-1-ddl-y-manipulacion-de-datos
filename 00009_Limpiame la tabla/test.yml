@@ -1,0 +1,4 @@
+type: final_dataset
+final: SELECT * FROM bandas;
+expected: |
+  id|nombre|premios
