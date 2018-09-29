@@ -43,8 +43,8 @@ Vamos entonces a insertar varios artistas en el siguiente órden:
 > ```
 
 > ```
-> Nombre: David Lebon
-> Apellido: Spinetta
+> Nombre: David
+> Apellido: Lebon
 > Fecha de nacimiento: 1952-10-05
 > ```
 
