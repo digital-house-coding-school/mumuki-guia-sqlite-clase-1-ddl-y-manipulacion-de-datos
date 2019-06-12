@@ -3,7 +3,7 @@ Ahora que ya vimos cómo agregar contenido, te toca a vos. :wink:
 > Insertá los siguientes datos de esta banda:
 >
 > ```
-> Nombre: Almendra
+> Nombre: Josias
 > Premios: 28
 
 ¿Y el ID? Al ser **clave primaria** y autoincremental no es necesario aclaralo en la consulta. Las opciones para esto son dos:
